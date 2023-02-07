@@ -1,10 +1,6 @@
 db.produtos.find(
   {
-    vendidos: {
-      $gt: 50,
-      $lt: 100,
-    },
-  },
+    vendidos: { $gt: 50, $lt: 100 } },
   {
     _id: 0,
     nome: 1,
