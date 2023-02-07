@@ -5,8 +5,10 @@ db.produtos.find(
       { vendidos: { $eq: 85 } },
     ],
   },
-  { _id: 0,
+  { 
+    _id: 0,
     nome: 1,
     curtidas: 1,
-    vendidos: 1 },
+    vendidos: 1,
+  },
 );

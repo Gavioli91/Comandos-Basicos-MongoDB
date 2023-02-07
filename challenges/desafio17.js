@@ -5,6 +5,7 @@ db.resumoProdutos.insertOne(
   db.produtos.countDocuments({}),
 },
 );
+
 db.resumoProdutos.find(
   {},
   {

@@ -6,6 +6,7 @@ db.produtos.updateMany(
   {
     $push: { ingredientes: "bacon" } },
 );
+
 db.produtos.find(
   {},
   {
